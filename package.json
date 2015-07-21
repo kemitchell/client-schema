@@ -1,6 +1,6 @@
 {
   "name": "@kemitchell/client-schema",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "JSON Schema for legal clients",
   "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
   "repository": "kemitchell/client-schema.js",
