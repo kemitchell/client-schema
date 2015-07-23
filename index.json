@@ -6,21 +6,23 @@
       "type": "string" },
     "form": {
       "enum": [ "corporation", "partnership", "LLC" ] },
-    "jurisdiction": {
-      "$ref": "#/definitions/3166-2" },
-    "formed": {
-      "type": "string",
-      "format": "date-time" },
-    "nicknames": {
-      "type": "array",
-      "items": {
-        "type": "string" } },
     "files": {
       "type": "object",
       "patternProperties": {
         "^(US-DE|US-CA)$": {
           "type": "string" } },
-      "additionalProperties": false } },
+      "additionalProperties": false },
+    "formed": {
+      "type": "string",
+      "format": "date-time" },
+    "jurisdiction": {
+      "$ref": "#/definitions/3166-2" },
+    "nicknames": {
+      "type": "array",
+      "items": {
+        "type": "string" } },
+    "office": {
+      "$ref": "#/definitions/address" } },
   "required": [ "name", "nicknames" ],
   "additionalProperties": false,
   "definitions": {
