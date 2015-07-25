@@ -4,6 +4,10 @@
   "properties": {
     "name": {
       "type": "string" },
+    "ein": {
+      "type": "string",
+      "minLength": 9,
+      "maxLength": 9 },
     "form": {
       "enum": [ "corporation", "partnership", "LLC" ] },
     "files": {
