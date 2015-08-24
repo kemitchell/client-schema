@@ -28,7 +28,9 @@
       "items": {
         "type": "string" } },
     "office": {
-      "$ref": "#/definitions/address" } },
+      "$ref": "#/definitions/address" },
+    "phone": {
+      "type": "string" } },
   "required": [ "name", "nicknames" ],
   "additionalProperties": false,
   "definitions": {
