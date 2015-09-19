@@ -11,7 +11,7 @@
     "form": {
       "enum": [
         "general partnership", "corporation", "partnership", "LLC",
-        "sole proprietorship" ] },
+        "limited company", "sole proprietorship" ] },
     "files": {
       "type": "object",
       "patternProperties": {
